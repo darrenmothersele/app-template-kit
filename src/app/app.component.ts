@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     <app-header></app-header>
     <app-sub-nav></app-sub-nav>
     <div class="flex-1 flex">
-        <div class="border-r">
+        <div class="border-r bg-white">
             <app-side-nav class="mt-6"></app-side-nav>
         </div>
         <div class="ml-6 mt-6">

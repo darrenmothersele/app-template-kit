@@ -4,7 +4,7 @@ import { AlertService } from '../services/alert.service';
 @Component({
   selector: 'app-test-page',
   template: `
-    <button class="border-blue-400 text-blue-400 px-2 py-1 border rounded" type="button" (click)="testAlert()">Test alert</button>
+    <button class="border-blue-400 text-blue-400 px-2 py-1 border rounded hover:bg-blue-400 hover:text-white" type="button" (click)="testAlert()">Test alert</button>
   `,
   styles: []
 })

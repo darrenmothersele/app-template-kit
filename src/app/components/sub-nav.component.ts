@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-sub-nav',
   template: `
-    <div class="flex border-b px-6">
+    <div class="flex border-b px-6 bg-white">
         <a *ngFor="let link of links; let i = index" href="#"
            [class.border-blue-700]="i === activeLink"
            [class.border-transparent]="i !== activeLink"
